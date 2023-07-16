@@ -28,7 +28,7 @@ class_labels = ['Non-Defective', 'Defective']
 st.header("Terminal Crimp Cross-section Classifier")
 
 # Upload an image file
-uploaded_file = st.sidebar.file_uploader("Upload Image", type=["jpg", "jpeg", "png", "gif"])
+uploaded_file = st.sidebar.file_uploader("Upload Image", type=["jpg", "jpeg", "png", "gif","bmp"])
 
 # Check if an image file was uploaded
 if uploaded_file is not None:
