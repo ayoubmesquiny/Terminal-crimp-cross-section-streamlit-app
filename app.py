@@ -7,7 +7,7 @@ model = None
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('model/ResNet152V2.h5')
+    return tf.keras.models.load_model('model/model.h5')
 
 def predict(image):
     # Preprocess the image
